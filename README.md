@@ -5,7 +5,7 @@ This repository contains a Java-based Multiple Choice Questions (MCQ) project th
 ### Prerequisites  
 <ul><li>Java Development Kit (JDK)</li>  
 <li>Firebase Account</li>  
-<li>Firebase Project with Firestore Database enabled</li></ul>  
+<li>Firebase Project with Firestore Database enabled</li></ul>    
 ### Setup  
 <ol>
 <li>Clone the repository:  
