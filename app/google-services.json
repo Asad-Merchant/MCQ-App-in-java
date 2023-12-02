@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "343731128207",
+    "project_id": "mcq-app2",
+    "storage_bucket": "mcq-app2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343731128207:android:82d2dbf7a999e336f2adfa",
+        "android_client_info": {
+          "package_name": "com.example.mcqapp2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjf1p0snWVrvinyi-My2WhbVfcI30m3Iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
