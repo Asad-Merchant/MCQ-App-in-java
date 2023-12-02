@@ -49,7 +49,7 @@ public class QuestionActivity extends AppCompatActivity implements OptionAdapter
         sub = findViewById(R.id.btnSub);
         next = findViewById(R.id.btnNext);
         prev = findViewById(R.id.btnPrev);
-        reference = firestore.collection("quiz");
+        reference = firestore.collection("your_collection_name");
         for(int i=0;i<total;i++){
             answer2.add(i,"IIIIIIIIIIIIIIIIIIIIIIIIIIIIIII");
         }
@@ -98,17 +98,6 @@ public class QuestionActivity extends AppCompatActivity implements OptionAdapter
                             questions = (Map<String, Object>) quizzes.get("Question");
 //                            Log.d("DATA",quizzes.get("Question").toString());
                             myData();
-
-//                            Log.d("DATA",quizzes.toString());
-//                            Questions questions1 = questions.get("question"+index);
-//                            //                                  Log.d("DATA", String.valueOf(questions1));
-//                            if(questions1!=null){
-//                                des.setText(questions1.getDescription());
-//                                OptionAdapter optionAdapter = new OptionAdapter(this,questions1);
-//                                option.setLayoutManager(new LinearLayoutManager(this));
-//                                option.setAdapter(optionAdapter);
-//                                option.setHasFixedSize(true);
-//                            }
                         }
                     });
         }else {
