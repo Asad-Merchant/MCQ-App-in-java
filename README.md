@@ -3,9 +3,9 @@
 This repository contains a Java-based Multiple Choice Questions (MCQ) project that utilizes Firebase Firestore as the database for storing and managing questions and answers.  
 ## Getting Started  
 ### Prerequisites  
-1.Java Development Kit (JDK)  
-2.Firebase Account  
-3.Firebase Project with Firestore Database enabled  
+<ul><li>Java Development Kit (JDK)</li>  
+<li>Firebase Account</li>  
+<li>Firebase Project with Firestore Database enabled</li></ul>  
 ### Setup  
 <ol>
 <li>Clone the repository:  
